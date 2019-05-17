@@ -23,11 +23,116 @@
   color: #61dafb;
 }
 
+.listside {
+  background-color: #f3f3f3;
+  height: 100vh;
+  padding: 0px !important;
+  -webkit-box-shadow: 3px 1px 14px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 1px 14px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 1px 14px -4px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar {
+  background-color: white;
+  height: 100vh;
+  padding: 15px;
+  -webkit-box-shadow: 3px 1px 14px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 1px 14px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 1px 14px -4px rgba(0, 0, 0, 0.75);
+}
+
+.todos-header {
+  height: 200px;
+  /*background-color: #6556a4;*/
+  background-position: center center;
+  font-size: 32px;
+  color: white;
+  font-weight: 300;
+  background-size: cover;
+}
+
+.date-span {
+  font-size: 14px !important;
+}
+
+.todo-done {
+  text-decoration: line-through;
+  color: grey;
+  font-weight: 500;
+}
+
+.todo-list-item {
+  padding-left: 15px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 90%;
+  font-weight: 600;
+  top: 2px;
+  position: relative;
+}
+
+.todo-item {
+  background-color: white;
+  border: none;
+
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+.todo-item:hover {
+  background-color: #f3eef7;
+  cursor: pointer;
+}
+
+
+.todo-item-erase {
+  display: none;
+  float: right;
+}
+
+.todo-item:hover>.todo-item-erase {
+  display: inherit;
+}
+
+.add-item-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
+.add-new-item {
+  color: #473895;
+  font-weight: 600;
+  padding-left: 15px;
+  top: 2px;
+  position: relative;
+}
+
+.sidebar-item {
+  background-color: #f3eef7;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width: 575px) {
+
+  .sidebar {
+    height: 100%;
+  }
+
 }

@@ -1,0 +1,11 @@
+{
+	"folders": [{
+		"path": "/Users/bybash/Documents/Projects/SimplyBusiness"
+	}],
+	"settings": {
+		"files.defaultLanguage": "javascriptreact",
+		"files.associations": {
+			"*.js": "javascriptreact"
+		},
+	}
+}
